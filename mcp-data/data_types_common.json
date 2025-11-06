@@ -1,0 +1,3390 @@
+[
+  {
+    "name": "Application",
+    "description": "",
+    "definition_type": "Global promote",
+    "return_type": "Application",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GetVariableSystem",
+    "description": "Access the global variable system",
+    "definition_type": "Global promote",
+    "return_type": "VariableSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Abs_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Abs_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Abs_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Abs_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "AddLocalizationIf",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "AddTextIf",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Add_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And",
+    "description": "If both arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And3",
+    "description": "If all 3 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And4",
+    "description": "If all 4 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And5",
+    "description": "If all 5 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And6",
+    "description": "If all 6 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And7",
+    "description": "If all 7 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5",
+      "Arg6"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "And8",
+    "description": "If all 8 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5",
+      "Arg6",
+      "Arg7"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "AndEvalAll",
+    "description": "Evaluates all arguments and then checks if both arguments are true. Using 'And' is preferred.",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMax_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusiveOfMin_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BetweenInclusive_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Between_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BoolTo1And2",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "BoolTo2And1",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ConcatIfNeitherEmpty",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Concatenate",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "CurrentAndMaxToProgressbarValueInt32",
+    "description": "Get the progress (0.0-100.0) of CurrentArg to MaxArg. Value is clamped between 0 and 100.",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelFirst",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelHasItems",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelLast",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelRepeatedItem",
+    "description": "The data function used for mocking empty list items, requires int32 (number of items) as a parameter. Example: datamodel = [RepeatedItem( '(int32)4' )]",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelSkipFirst",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelSkipLast",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DataModelSubSpan",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Divide_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "DoubleToFloat",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_string",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "EqualTo_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "FixedPointToFloat",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "FixedPointToInt",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "FixedPointToProgressbarValue",
+    "description": "Convert to a progress percentage value (by multiplying with 100, unclamped).",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetDataModelSize",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetDefine",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetDefineAtIndex",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetGameVersionDisplay",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GetLocalizedDefine",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetLocalizedDefineAtIndex",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetNumberAbove_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CPdxFloatRect",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CPdxIntRect",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector2i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector3f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector3i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector4f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetString_CVector4i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThanOrEqualTo_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GreaterThan_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "InDebugMode",
+    "description": "Is the game in Debug mode?",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "InReleaseMode",
+    "description": "Is the game in Release mode?",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "IntToFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IntToFloat",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IntToFrameIndex",
+    "description": "Adds 1 to Arg1.",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IntToUnsigned",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsDataModelEmpty",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsEven_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsEven_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsEven_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsEven_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsOdd_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsOdd_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsOdd_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "IsOdd_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "JoinText",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThanOrEqualTo_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LessThan_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Localize",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "LocalizeInputAction",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Max_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Min_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Modulo_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Modulo_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Modulo_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Modulo_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Multiply_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Nbsp",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Negate_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Negate_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Negate_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Negate_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Not",
+    "description": "If the argument is not true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "NotEqualTo_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ObjectsEqual",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or",
+    "description": "If either argument is true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or3",
+    "description": "If any of 3 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or4",
+    "description": "If any of 4 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or5",
+    "description": "If any of 5 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or6",
+    "description": "If any of 6 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or7",
+    "description": "If any of 7 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5",
+      "Arg6"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Or8",
+    "description": "If any of 8 arguments are true",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2",
+      "Arg3",
+      "Arg4",
+      "Arg5",
+      "Arg6",
+      "Arg7"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "OrEvalAll",
+    "description": "Evaluates all arguments and then checks if either argument is true. Using 'Or' is preferred.",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "SelectLocalization",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CString",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector2i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2i",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector3f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector3f",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector3i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector3i",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector4f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector4f",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_CVector4i",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector4i",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_int16",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int16",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_int8",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int8",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_uint16",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint16",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Select_uint8",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint8",
+    "args": [
+      "Arg0",
+      "Arg1",
+      "Arg2"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "StringIsEmpty",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "bool",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_CFixedPoint",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CFixedPoint",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_CVector2f",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CVector2f",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_float",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "float",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "Subtract_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "uint64",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_int16",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_int32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_int64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_int8",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_uint16",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_uint32",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_uint64",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ToString_uint8",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "CString",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer",
+    "description": "Base class for resolution containers",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.GetActiveResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ActiveResolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.GetActiveResolutionFromKey( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ActiveResolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.GetActiveResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.GetActiveResolutionFromKey( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.HasActiveResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.HasActiveResolutionFromKey( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.ResolutionIsActive( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolutionContainer.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Application",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Application.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Application.Quit",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Application.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CFixedPoint",
+    "description": "Number stored with 6 digits of precision.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CFixedPoint.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CFixedPoint.GetFixedPoint",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CFixedPoint.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxFloatRect",
+    "description": "Rectangle within an 2D float space.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxFloatRect.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxFloatRect.GetRect",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxFloatRect.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxIntRect",
+    "description": "Rectangle within an 2D integer space.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxIntRect.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxIntRect.GetRect",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CPdxIntRect.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CString",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CString.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CString.GetString",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CString.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CUTF8String",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CUTF8String.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CUTF8String.GetString",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CUTF8String.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2f",
+    "description": "Type containing two float numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2f.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2f.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2f.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2i",
+    "description": "Type containing two integer numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2i.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2i.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector2i.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3f",
+    "description": "Type containing three float numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3f.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3f.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3f.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3i",
+    "description": "Type containing three integer numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3i.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3i.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector3i.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4f",
+    "description": "Type containing four float numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4f.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4f.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4f.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4i",
+    "description": "Type containing four integer numbers.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4i.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4i.GetVector",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CVector4i.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Date",
+    "description": "Jomini Historical Date",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Date.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Date.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable",
+    "description": "Jomini Playable",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable.GetCountry",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Country",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable.GetJominiPlayableCountryRef",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Country",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable.GetJominiPlayableCountryRef",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Playable.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Clear( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.ClearIf( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.ClearMultiple( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Exists( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Get( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.HasValue( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Set( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.SetIf( Arg0, Arg1, Arg2 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.SetOrToggle( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "VariableSystem.Toggle( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "bool",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "bool.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "bool.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "double",
+    "description": "Number stored with `double float` precision.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "double.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "double.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "float",
+    "description": "Number stored with `float` precision.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "float.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "float.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int16",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int16.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int16.GetInt",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int16.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int32",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int32.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int32.GetInt",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int32.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int64",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int64.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int64.GetInt",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int64.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int8",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int8.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int8.GetInt",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "int8.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint16",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint16.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint16.GetUint",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint16.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint32",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint32.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint32.GetUint",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint32.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint64",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint64.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint64.GetUint",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint64.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint8",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint8.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint8.GetUint",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "uint8.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "void",
+    "description": "Unspecified type / empty type.",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "void.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "void.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  }
+]

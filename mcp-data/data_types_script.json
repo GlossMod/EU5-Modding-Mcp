@@ -1,0 +1,6593 @@
+[
+  {
+    "name": "DATE",
+    "description": "Jomini Date",
+    "definition_type": "Global promote",
+    "return_type": "Date",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DATE_MAX",
+    "description": "Jomini Date - Max",
+    "definition_type": "Global promote",
+    "return_type": "Date",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DATE_MIN",
+    "description": "Jomini Date - Min",
+    "definition_type": "Global promote",
+    "return_type": "Date",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "EmptyScope",
+    "description": "",
+    "definition_type": "Global promote",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GetGlobalVariable",
+    "description": "",
+    "definition_type": "Global promote",
+    "return_type": "Scope",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "PREV",
+    "description": "Script Scope",
+    "definition_type": "Global promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ROOT",
+    "description": "Script Scope",
+    "definition_type": "Global promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SCOPE",
+    "description": "Script Scope",
+    "definition_type": "Global promote",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "THIS",
+    "description": "Script Scope",
+    "definition_type": "Global promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GetGlobalList",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetGlobalVariable",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "[unregistered]",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "GetVarTimeRemaining",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "int32",
+    "args": [
+      "Arg0",
+      "Arg1"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "MakeScopeBool",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "Scope",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "MakeScopeFlag",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "Scope",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "MakeScopeValue",
+    "description": "",
+    "definition_type": "Global function",
+    "return_type": "Scope",
+    "args": [
+      "Arg0"
+    ],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolution",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ActiveResolution.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "AdvanceDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "AdvanceDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Age",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Age.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Area",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Area.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Artist",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Artist.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Avatar",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Avatar.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Building",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Building.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "BuildingType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "BuildingType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Cabinet",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Cabinet.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Cardinal",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Cardinal.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CasusBelli",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CasusBelli.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Character",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Character.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CharacterInteraction",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CharacterInteraction.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ChildEducation",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ChildEducation.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Climate",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Climate.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ColonialCharter",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ColonialCharter.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Combat",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Combat.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CombatSide",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CombatSide.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Container",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Container.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Container.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Continent",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Continent.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Country",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Country.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CountryInteraction",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CountryInteraction.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CountryRank",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CountryRank.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Culture",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Culture.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CultureGroup",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "CultureGroup.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DisasterType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DisasterType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Disease",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Disease.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DiseaseOutbreak",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "DiseaseOutbreak.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Dynasty",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Dynasty.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "EmploymentSystem",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "EmploymentSystem.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Estate",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Estate.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "EstateType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "EstateType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Ethnicity",
+    "description": "Portrait System - Ethnicity",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Ethnicity.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Exploration",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Exploration.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "FormableCountry",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "FormableCountry.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GenericAction",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GenericAction.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "God",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "God.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Goods",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Goods.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GoodsDemand",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GoodsDemand.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GovernmentType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "GovernmentType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Hegemony",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Hegemony.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HeirSelection",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HeirSelection.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySite",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySite.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySiteDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySiteDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySiteType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "HolySiteType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Implementable",
+    "description": "Base class for implementable game structures",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Implementable.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Implementable.HasPotential",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Implementable.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Institution",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Institution.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "InternationalOrganization",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "InternationalOrganization.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "InternationalOrganizationType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "InternationalOrganizationType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LandOwnershipRule",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LandOwnershipRule.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Language",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Language.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LanguageFamily",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LanguageFamily.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Law",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Law.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LevySetup",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LevySetup.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Loan",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Loan.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Location",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Location.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LocationRank",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "LocationRank.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Market",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Market.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Mercenary",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Mercenary.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "MissionDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "MissionDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "MissionTaskDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "MissionTaskDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentAgenda",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentAgenda.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentIssue",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentIssue.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ParliamentType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Payment",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Payment.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Policy",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Policy.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Pop",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Pop.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "PopType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "PopType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Price",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Price.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Privateer",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Privateer.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ProductionMethod",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ProductionMethod.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Province",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Province.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ProvinceDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ProvinceDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Rebel",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Rebel.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RecruitmentMethod",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RecruitmentMethod.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RegencyType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RegencyType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Region",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Region.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Religion",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Religion.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligionGroup",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligionGroup.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousAspect",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousAspect.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFaction",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFaction.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFigure",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFigure.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFocus",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousFocus.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousSchool",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ReligiousSchool.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Resolution",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Resolution.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RoadType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "RoadType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ActiveResolution",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ActiveResolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.AdvanceType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "AdvanceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Age",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Age",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Area",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Area",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Artist",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Artist",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Avatar",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Avatar",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Building",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Building",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.BuildingType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "BuildingType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Cabinet",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Cabinet",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Cardinal",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Cardinal",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CasusBelli",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CasusBelli",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Character",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Character",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CharacterInteraction",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CharacterInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ChildEducation",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ChildEducation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Climate",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Climate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ColonialCharter",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ColonialCharter",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Combat",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Combat",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CombatSide",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CombatSide",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Continent",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Continent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Country",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Country",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CountryInteraction",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CountryInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CountryRank",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CountryRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Culture",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Culture",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CultureGroup",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "CultureGroup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.DisasterType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "DisasterType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Disease",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Disease",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.DiseaseOutbreak",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "DiseaseOutbreak",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Dynasty",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Dynasty",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.EmploymentSystem",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "EmploymentSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Estate",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Estate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.EstateType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "EstateType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Ethnicity",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Ethnicity",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Exploration",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Exploration",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Faction",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFaction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.FormableCountry",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "FormableCountry",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GenericAction",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "GenericAction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetActiveResolution",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ActiveResolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetAdvanceType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "AdvanceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetAge",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Age",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetArea",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Area",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetArtist",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Artist",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetAvatar",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Avatar",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetBuilding",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Building",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetBuildingType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "BuildingType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCabinet",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Cabinet",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCabinetAction",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CabinetAction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCardinal",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Cardinal",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCasusBelli",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CasusBelli",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCharacter",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Character",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCharacterInteraction",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CharacterInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetChildEducation",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ChildEducation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetClimate",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Climate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetColonialCharter",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ColonialCharter",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCombat",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Combat",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCombatSide",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CombatSide",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetContinent",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Continent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCountry",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Country",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCountryInteraction",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CountryInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCountryRank",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CountryRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCulture",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Culture",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetCultureGroup",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CultureGroup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDialect",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Dialect",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDisaster",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Disaster",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDisasterType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "DisasterType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDisease",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Disease",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDiseaseOutbreak",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "DiseaseOutbreak",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetDynasty",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Dynasty",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetEmploymentSystem",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EmploymentSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetEstate",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Estate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetEstatePrivilege",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EstatePrivilege",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetEstateType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EstateType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetEthnicity",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Ethnicity",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetExploration",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Exploration",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetFormableCountry",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "FormableCountry",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGenericAction",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GenericAction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGod",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "God",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGoods",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Goods",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGoodsDemand",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Goods",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGovernmentReform",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GovernmentReform",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetGovernmentType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GovernmentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetHegemony",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Hegemony",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetHeirSelection",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HeirSelection",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetHolySite",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySite",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetHolySiteDefinition",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySiteDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetHolySiteType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySiteType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetInternationalOrganization",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganization",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetInternationalOrganizationType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganizationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLandOwnershipRule",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LandOwnershipRule",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLanguage",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Language",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLaw",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Law",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLevySetup",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LevySetup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLoan",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Loan",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLocation",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Location",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetLocationRank",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LocationRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetMarket",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Market",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetMercenary",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Mercenary",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetMissionDefinition",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "MissionDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetMissionTaskDefinition",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "MissionTaskDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetParliamentAgenda",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentAgenda",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetParliamentIssue",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentIssue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetParliamentType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPayment",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Payment",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPolicy",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Policy",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPop",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Pop",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPopType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "PopType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPrice",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Price",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetPrivateer",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Privateer",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetProductionMethod",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ProductionMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetProvince",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Province",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetProvinceDefinition",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ProvinceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRebel",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Rebel",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRecruitmentMethod",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RecruitmentMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRegencyType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RegencyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRegion",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Region",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRelationType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptedRelationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligion",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Religion",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligionGroup",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligionGroup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligiousAspect",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousAspect",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligiousFaction",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFaction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligiousFigure",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFigure",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligiousFocus",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFocus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetReligiousSchool",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousSchool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetResolution",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Resolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetRoadType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RoadType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetScriptableHintDefinition",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptableHintDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetScriptedPeaceTreatyType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptedPeaceTreatyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSiege",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Siege",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSituation",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Situation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSocietalValue",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SocietalValue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSpecialStatus",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SpecialStatus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSubContinent",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubContinent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSubUnit",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSubUnitCategory",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnitCategory",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSubjectMilitaryStance",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubjectMilitaryStance",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetSubjectType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubjectType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetTopography",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Topography",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetTrade",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Trade",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetTrait",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Trait",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetUnit",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Unit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetUnitAbility",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "UnitAbility",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetUnitType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnitType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetVariable( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetVegetation",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Vegetation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetWar",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "War",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetWeatherSystem",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WeatherSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetWorkOfArt",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArt",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetWorkOfArtType",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArtType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.God",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "God",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Goods",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Goods",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GoodsDemand",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "GoodsDemand",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GovernmentType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "GovernmentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Hegemony",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Hegemony",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HeirSelection",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "HeirSelection",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySite",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "HolySite",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySiteDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "HolySiteDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySiteType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "HolySiteType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Institution",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Institution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.InternationalOrganization",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganization",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.InternationalOrganizationType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganizationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LandOwnershipRule",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "LandOwnershipRule",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Language",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Language",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LanguageFamily",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "LanguageFamily",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Law",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Law",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LevySetup",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "LevySetup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Loan",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Loan",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Location",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Location",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LocationRank",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "LocationRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Market",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Market",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Mercenary",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Mercenary",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.MissionDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "MissionDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.MissionTaskDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "MissionTaskDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamenType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ParliamentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamentAgenda",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ParliamentAgenda",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamentIssue",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ParliamentIssue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Payment",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Payment",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Policy",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Policy",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Pop",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Pop",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.PopType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "PopType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Price",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Price",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Privateer",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Privateer",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ProductionMethod",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ProductionMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Province",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Province",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ProvinceDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ProvinceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Rebel",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Rebel",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RecruitmentMethod",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "RecruitmentMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RegencyType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "RegencyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Region",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Region",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RelationType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ScriptedRelationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Religion",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Religion",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligionGroup",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligionGroup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousAspect",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligiousAspect",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousFigure",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFigure",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousFocus",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFocus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousSchool",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ReligiousSchool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Resolution",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Resolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RoadType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "RoadType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ScriptableHintDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ScriptableHintDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ScriptedPeaceTreatyType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "ScriptedPeaceTreatyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Siege",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Siege",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Situation",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Situation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SocietalValue",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SocietalValue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SpecialStatus",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SpecialStatus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubContinent",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubContinent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubUnit",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubUnit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubUnitCategory",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubUnitCategory",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubjectMilitaryStance",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubjectMilitaryStance",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubjectType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubjectType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Topography",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Topography",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Trade",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Trade",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Trait",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Trait",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Unit",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Unit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.UnitAbility",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "UnitAbility",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.UnitType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "SubUnitType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Var( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Vegetation",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "Vegetation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.War",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "War",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WeatherSystem",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "WeatherSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WorkOfArt",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArt",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WorkOfArtType",
+    "description": "Jomini Script System",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArtType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ActiveResolution",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.AdvanceType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Age",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Area",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Artist",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Avatar",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Building",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.BuildingType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Cabinet",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Cardinal",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CasusBelli",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Character",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CharacterInteraction",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ChildEducation",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Climate",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ColonialCharter",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Combat",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CombatSide",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Continent",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Country",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CountryInteraction",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CountryRank",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Culture",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.CultureGroup",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.DisasterType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Disease",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.DiseaseOutbreak",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Dynasty",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.EmploymentSystem",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Estate",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.EstateType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Ethnicity",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Exploration",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Faction",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.FormableCountry",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GenericAction",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetFlagName",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetList( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetScriptValueDesc( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetValue",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CFixedPoint",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GetValueWithDefault( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CFixedPoint",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.God",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Goods",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GoodsDemand",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.GovernmentType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Hegemony",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HeirSelection",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySite",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySiteDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.HolySiteType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Institution",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.InternationalOrganization",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.InternationalOrganizationType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.IsSet",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LandOwnershipRule",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Language",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LanguageFamily",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Law",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LevySetup",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Loan",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Location",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.LocationRank",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Market",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Mercenary",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.MissionDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.MissionTaskDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamenType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamentAgenda",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ParliamentIssue",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Payment",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Policy",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Pop",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.PopType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Price",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Privateer",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ProductionMethod",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Province",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ProvinceDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Rebel",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RecruitmentMethod",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RegencyType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Region",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RelationType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Religion",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligionGroup",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousAspect",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousFigure",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousFocus",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ReligiousSchool",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Resolution",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.RoadType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ScriptValue( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CFixedPoint",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ScriptableHintDefinition",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.ScriptedPeaceTreatyType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Siege",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Situation",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SocietalValue",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SpecialStatus",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubContinent",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubUnit",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubUnitCategory",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubjectMilitaryStance",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.SubjectType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Topography",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Trade",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Trait",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Unit",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.UnitAbility",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.UnitType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.VarRemaining( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "int32",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.Vegetation",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.War",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WeatherSystem",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WorkOfArt",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Scope.WorkOfArtType",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptableHintDefinition",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptableHintDefinition.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.BuildTooltip( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.Execute( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "void",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.ExecuteTooltip( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.IsShown( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.IsShownTooltip( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.IsValid( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "bool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.IsValidTooltip( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedGui.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedPeaceTreatyType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedPeaceTreatyType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedRelationType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "ScriptedRelationType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Siege",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Siege.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Situation",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Situation.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SocietalValue",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SocietalValue.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SpecialStatus",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SpecialStatus.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubContinent",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubContinent.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnit",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnit.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnitCategory",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnitCategory.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnitType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubUnitType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubjectMilitaryStance",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubjectMilitaryStance.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubjectType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "SubjectType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.AddList( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.AddScope( Arg0, Arg1 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetLocalVariable( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetRootScope",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.SetRoot( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sActiveResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ActiveResolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAdvanceType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "AdvanceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAge( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Age",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sArea( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Area",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sArtist( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Artist",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAudioCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "AudioCultureType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAvatar( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Avatar",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sBuildingType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "BuildingType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCabinet( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Cabinet",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCabinetAction( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CabinetAction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCardinal( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Cardinal",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCasusBelli( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CasusBelli",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCharacter( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Character",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCharacterInteraction( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CharacterInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sChildEducation( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ChildEducation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sClimate( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Climate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sColonialCharter( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ColonialCharter",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCombat( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Combat",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCombatSide( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CombatSide",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sContinent( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Continent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountry( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Country",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountryInteraction( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CountryInteraction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountryRank( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "CountryRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Culture",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDialect( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Dialect",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisaster( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Disaster",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisasterType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "DisasterType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisease( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Disease",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDiseaseOutbreak( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "DiseaseOutbreak",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDynasty( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Dynasty",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEmploymentSystem( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EmploymentSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstate( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Estate",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstatePrivilege( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EstatePrivilege",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstateType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "EstateType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEthnicity( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Ethnicity",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sExploration( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Exploration",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sFormableCountry( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "FormableCountry",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGenericAction( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GenericAction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGod( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "God",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGoods( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Goods",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGoodsDemand( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GoodsDemand",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGovernmentReform( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GovernmentReform",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGovernmentType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GovernmentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGraphicalCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "GraphicalCultureType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHegemony( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Hegemony",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHeirSelection( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HeirSelection",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySite( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySite",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySiteDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySiteDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySiteType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "HolySiteType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInstitution( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Institution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInternationalOrganization( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganization",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInternationalOrganizationType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "InternationalOrganizationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLandOwnershipRule( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LandOwnershipRule",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLanguage( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Language",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLanguageFamily( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LanguageFamily",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLaw( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Law",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLevySetup( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LevySetup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLoan( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Loan",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLocation( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Location",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLocationRank( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "LocationRank",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMarket( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Market",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMercenary( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Mercenary",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMissionDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "MissionDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMissionTaskDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "MissionTaskDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentAgenda( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentAgenda",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentIssue( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentIssue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ParliamentType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPayment( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Payment",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPolicy( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Policy",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPop( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Pop",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPopType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "PopType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPrice( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Price",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPrivateer( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Privateer",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProductionMethod( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ProductionMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProvince( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Province",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProvinceDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ProvinceDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRebel( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Rebel",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRecruitmentMethod( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RecruitmentMethod",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRegencyType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RegencyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRegion( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Region",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRelationType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptedRelationType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligion( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Religion",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligionGroup( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligionGroup",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousAspect( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousAspect",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFaction( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFaction",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFigure( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFigure",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFocus( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousFocus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousSchool( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ReligiousSchool",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Resolution",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRoadType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "RoadType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sScriptableHintDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptableHintDefinition",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sScriptedPeaceTreatyType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "ScriptedPeaceTreatyType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSiege( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Siege",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSituation( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Situation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSocietalValue( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SocietalValue",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSpecialStatus( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SpecialStatus",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubContinent( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubContinent",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubUnit( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubUnitCategory( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnitCategory",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubjectMilitaryStance( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubjectMilitaryStance",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubjectType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubjectType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTopography( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Topography",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTrade( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Trade",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTrait( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Trait",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnit( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Unit",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnitAbility( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "UnitAbility",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnitType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "SubUnitType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sVegetation( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "Vegetation",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWar( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "War",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWeatherSystem( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WeatherSystem",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWorkOfArt( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArt",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWorkOfArtType( Arg0 )",
+    "description": "",
+    "definition_type": "Promote",
+    "return_type": "WorkOfArtType",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.AccessSelf",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.End",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "TopScope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetFlagName( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetLocalVariable( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetRootScope",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetScriptValueDesc( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CString",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.GetValue( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CFixedPoint",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.ScriptValue( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "CFixedPoint",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.Self",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sActiveResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAdvanceType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAge( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sArea( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sArtist( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAudioCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sAvatar( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sBuildingType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCabinet( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCabinetAction( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCardinal( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCasusBelli( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCharacter( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCharacterInteraction( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sChildEducation( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sClimate( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sColonialCharter( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCombat( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCombatSide( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sContinent( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountry( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountryInteraction( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCountryRank( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDialect( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisaster( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisasterType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDisease( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDiseaseOutbreak( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sDynasty( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEmploymentSystem( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstate( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstatePrivilege( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEstateType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sEthnicity( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sExploration( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sFormableCountry( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGenericAction( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGod( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGoods( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGoodsDemand( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGovernmentReform( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGovernmentType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sGraphicalCulture( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHegemony( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHeirSelection( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySite( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySiteDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sHolySiteType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInstitution( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInternationalOrganization( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sInternationalOrganizationType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLandOwnershipRule( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLanguage( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLanguageFamily( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLaw( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLevySetup( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLoan( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLocation( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sLocationRank( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMarket( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMercenary( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMissionDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sMissionTaskDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentAgenda( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentIssue( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sParliamentType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPayment( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPolicy( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPop( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPopType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPrice( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sPrivateer( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProductionMethod( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProvince( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sProvinceDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRebel( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRecruitmentMethod( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRegencyType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRegion( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRelationType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligion( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligionGroup( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousAspect( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFaction( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFigure( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousFocus( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sReligiousSchool( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sResolution( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sRoadType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sScriptableHintDefinition( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sScriptedPeaceTreatyType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSiege( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSituation( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSocietalValue( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSpecialStatus( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubContinent( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubUnit( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubUnitCategory( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubjectMilitaryStance( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sSubjectType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTopography( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTrade( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sTrait( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnit( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnitAbility( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sUnitType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sVegetation( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWar( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWeatherSystem( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWorkOfArt( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "TopScope.sWorkOfArtType( Arg0 )",
+    "description": "",
+    "definition_type": "Function",
+    "return_type": "[unregistered]",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Topography",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Topography.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Trade",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Trade.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Trait",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Trait.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Unit",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Unit.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "UnitAbility",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "UnitAbility.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Vegetation",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "Vegetation.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "War",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "War.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WeatherSystem",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WeatherSystem.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WorkOfArt",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WorkOfArt.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WorkOfArtType",
+    "description": "",
+    "definition_type": "Type",
+    "return_type": "",
+    "args": [],
+    "type": "data_type"
+  },
+  {
+    "name": "WorkOfArtType.MakeScope",
+    "description": "Jomini Script System",
+    "definition_type": "Function",
+    "return_type": "Scope",
+    "args": [],
+    "type": "data_type"
+  }
+]
