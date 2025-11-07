@@ -10,7 +10,7 @@
 
 ```json
 {
-   "eu5-Modding-mcp": {
+   "eu5-modding-mcp": {
       "command": "python",
       "args": ["<your-path>/server.py"],
    }
