@@ -54,7 +54,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -131,6 +130,5 @@ dmypy.json
 .DS_Store
 
 # Project specific
-*.log
 .pytest_cache/
 htmlcov/
